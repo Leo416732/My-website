@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: rgb(244, 245, 246);
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+.search-image{
+    width: 20px;
+    margin-bottom: 5px;
+}
+.head-logo{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 13px;
+}
+.head-cont{
+    width: 30%;
+    display: flex;
+    gap: 20px;
+}
+.head-cont > a{
+    text-decoration: none;
+    color: black;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 11px;
+    transition: 0.3s;
+    margin-top: 3px;
+}
+.head-cont > a:hover{
+    color: rgba(60, 60, 234, 0.93);
+}
+.caret-down-image{
+    width: 10px;
+}
+.Sign{
+    text-decoration: none;
+    font-size: 13px;
+    padding-left: 150px;
+    color: rgb(40, 39, 39);
+}
